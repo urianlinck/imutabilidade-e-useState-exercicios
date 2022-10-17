@@ -12,6 +12,8 @@ Caso use este template, lembre-se de dar um `npm install` assim que baixar!
 
 Caso queira criar uma nova aplicação React, basta copiar os conteúdos deste repositório e colar dentro da pasta do seu projeto criado.
 
+Observação: A aplicação não vai funcionar até você finalizar o exercício 2!
+
 # Exercício 1
 
 Primeiro, vamos analisar todo o código que vocês estão recebendo. 
