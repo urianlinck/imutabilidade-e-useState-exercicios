@@ -7,21 +7,14 @@ const PokemonCard = (props) => {
 
     const evoluirPokemon = () => {
         console.log("Cliquei no botão de evoluir")
-        
-        props.setPokemon({...props.pokemon, 
-            name: "Pikachu", 
-            image: "https://archives.bulbagarden.net/media/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png",
-            color: "#cea956",
-            evolved: true,
-            weight: 6 })
     }
+    
   return (
-    <Card color={props.pokemon.color}>
-        <img src={props.pokemon.image} alt={`Pokemon${props.id}`}/>
-        <PokemonName>{props.pokemon.name}</PokemonName>
-        <PokemonType>{props.pokemon.type}</PokemonType>
-        <p>{props.pokemon.evolved}</p>
-        <p>{props.pokemon.weight}kg</p>
+    <Card color={}>
+        <img src={} alt={`Pokemon`}/>
+        <PokemonName>{}</PokemonName>
+        <PokemonType>{}</PokemonType>
+        <p>{}kg</p>
 
         <EvolveButton onClick={() => evoluirPokemon()}>Evoluir!</EvolveButton>
     </Card>
