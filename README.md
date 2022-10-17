@@ -2,11 +2,6 @@
 
 Caso não lembre como funciona o processo de entrega, clique [**aqui**](https://github.com/labenuexercicios/instrucoes-entrega)
 
-## O que você precisa saber e praticar desta aula?
-1. Criação de componentes no React;
-2. importar e exportar arquivos e componentes;
-3. Aninhar componentes.
-
 
 ## Como eu vou executar os exercícios?
 Para o exercício de hoje, vamos utilizar um template! Dentro desse template vocês vão encontrar uma estrutura para trabalharmos com Pokemons! :) 
