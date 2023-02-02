@@ -14,7 +14,10 @@ const FlexContainer = styled.div`
   flex-wrap: wrap;
 `
 function App() {
-  const [pokemon, setPokemon] = useState({
+  
+
+  // Para fazer seus próximos pokemons, crie novos estados ultilizando como referência o objeto abaixo:
+  /*{
     name: "Pichu",
     type: "Electric",
     evolved: false,
@@ -22,9 +25,9 @@ function App() {
     color: 'yellow',
     image: 'https://archives.bulbagarden.net/media/upload/archive/f/f3/20130810070434%210172Pichu.png',
     id: 0
-  })
-
-  // Para fazer seus próximos pokemons, crie novos estados!
+  }
+  */
+  
 
   return ( <>
   <GlobalStyles/>
